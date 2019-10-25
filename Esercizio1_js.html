@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style_2.css">
+    <script src="script_1.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div>
+            <p>Cognome:</p>
+            <input id="txt_cognome" type="text" maxlength="40" placeholder="Inserire il Cognome...">
+            <p>Nome::</p>
+            <input id="txt_nome" type="text" maxlength="30" placeholder="Inserire il Nome...">
+            <p>Matricola:</p>
+            <input id="txt_matricola" type="text" maxlength="12" placeholder="Inserire la Matricola...">
+            <p>Regione di residenza:</p>
+            <select id="cbo_regione" >
+                <option disabled selected value> -- select an option -- </option>
+                <option value="Trentino">Trentino</option>
+                <option value="saab">Valle d'Aosta</option>
+                <option value="opel">Piemonte</option>
+                <option value="audi">Lombardia</option>
+                <option value="volvo">Emilia Romagna</option>
+                <option value="saab">Veneto</option>
+                <option value="opel">Friuli Venezia Giulia</option>
+                <option value="audi">Lazio</option>
+                <option value="volvo">Sicilia</option>
+                <option value="saab">Campania</option>
+                <option value="opel">Puglia</option>
+                <option value="audi">Toscana</option>
+                <option value="volvo">Liguria</option>
+                <option value="saab">Marche</option>
+                <option value="opel">Umbria</option>
+                <option value="audi">Molise</option>
+                <option value="volvo">Basilicata</option>
+                <option value="saab">Calabria</option>
+                <option value="opel">Abruzzo</option>
+                <option value="audi">Sardegna</option>
+            </select>
+            <p>Email:</p>
+            <input id="txt_email" type="text" maxlength="30" placeholder="Inserire Email...">
+            <p>Telefono:</p>
+            <input id="txt_telefono" type="text" maxlength="15" placeholder="Inserire il Telefono...">
+            <p>Richieste particolari:</p>
+            <textarea rows=12 cols=60 placeholder="Inserisci Richieste particolari..."></textarea>
+        </div>
+        <div>
+            <input onclick=" inviaCredenziali()" type="submit" value="Invio">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+    
+</body>
+</html>
